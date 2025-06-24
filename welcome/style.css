@@ -1,0 +1,67 @@
+/* === General === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ffe1dd, #f7b6b0);
+  margin: 0;
+  padding: 0;
+}
+
+/* === Navbar === */
+.navbar-brand {
+  font-weight: bold;
+  color: #e57373 !important;
+}
+
+.nav-link {
+  color: #2c3e50 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #e57373 !important;
+}
+
+/* === Welcome Section === */
+.welcome-section {
+  min-height: 90vh;
+  padding: 50px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-box {
+  background: #ffffff;
+  padding: 60px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+.welcome-box h1 {
+  color: #2c3e50;
+}
+
+.welcome-box p {
+  color: #555;
+}
+
+.welcome-box .btn {
+  background-color: #e57373;
+  border: none;
+  padding: 12px 30px;
+  font-weight: bold;
+}
+
+.welcome-box .btn:hover {
+  background-color: #d9534f;
+}
+
+/* === Footer === */
+footer {
+  background: #fff;
+  color: #888;
+  font-size: 0.9rem;
+  border-top: 1px solid #eee;
+}
